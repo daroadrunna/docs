@@ -1,31 +1,4 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.177.0/containers/javascript-node
-// -
-{
-    "name": "docs.github.com",
-    "build": {
-        "dockerfile": "Dockerfile",
-        // Update 'VARIANT' to pick a Node version
-        "args": { "VARIANT": "20" }
-    },
-
-    // Set *default* container specific settings.json values on container create.
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash",
-        "cSpell.language": ",en"
-    },
-
-    // Install features. Type 'feature' in the VS Code command palette for a full list.
-    "features": {
-        "sshd": "latest"
-    },
-
-    "customizations": {
-        "vscode": {
-            "settings": {},
-            // Visual Studio Code extensions which help authoring for docs.github.com.
-            "extensions": [
-                "dbaeumer.vscode-eslint",
+"ghcr.io/itsmechlark/features/1password:1": {}
                 "sissel.shopify-liquid",
                 "davidanson.vscode-markdownlint",
                 "bierner.markdown-preview-github-styles",
